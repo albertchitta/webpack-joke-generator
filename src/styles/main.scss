@@ -1,2 +1,32 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color:#000000;
+}
+
+.card {
+  background-color: #474747;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 712px;
+  margin: 200px auto;
+  height: 300px;
+
+  .card-title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+
+.btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
